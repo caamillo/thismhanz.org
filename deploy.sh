@@ -1,7 +1,9 @@
+# Cloud Panel Deployment Script
+
 git pull
 
-npm install
-npm run build
+bun i
+bun build
 
-rm -rf /var/www/thismhanz.org/html/**
-cp -r dist/** /var/www/thismhanz.org/html/
+rm -rf ../htdocs/www.thismhanz.org/**
+cp -r dist/** ../htdocs/www.thismhanz.org/
