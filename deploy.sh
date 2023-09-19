@@ -3,7 +3,7 @@
 git pull
 
 bun i
-bun build
+bun run build
 
 rm -rf ../htdocs/www.thismhanz.org/**
 cp -r dist/** ../htdocs/www.thismhanz.org/
